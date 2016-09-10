@@ -18,6 +18,6 @@ public class Main {
 
         // Print data field from all nodes in linked list
         linkedList.printList();
-        
+
     }
 }

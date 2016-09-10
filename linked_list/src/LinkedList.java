@@ -36,7 +36,7 @@ public class LinkedList {
         Integer i = 1;
         if (!isEmpty()) {
             while (nodeRef != null) {
-                System.out.println("Node " + i + " data : " + nodeRef.data);
+                System.out.println("Node " + i + " data : " + nodeRef.toString());
                 nodeRef = nodeRef.next;
                 i++;
             }
